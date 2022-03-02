@@ -7,11 +7,11 @@ public class MyList<T> {
     private int endIdx = count;  // index
 
     public MyList() {
-        this.list = (T[]) new Object[10];
+        this.list = (T[]) new Object[10];    // type casting
     }
 
     public MyList(int capacity) {
-        this.list = (T[]) new Object[capacity];
+        this.list = (T[]) new Object[capacity];     // type casting
     }
 
     public int size() {
